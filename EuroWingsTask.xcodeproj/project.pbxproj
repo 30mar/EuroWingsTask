@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57E4AA644CA9E3210210EE6F /* Pods_EuroWingsTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD53FCDA59C4EE24DAB7D9C6 /* Pods_EuroWingsTask.framework */; };
 		FA5B96BB21E971DE00830002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B96BA21E971DE00830002 /* AppDelegate.swift */; };
-		FA5B96BD21E971DE00830002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B96BC21E971DE00830002 /* ViewController.swift */; };
+		FA5B96BD21E971DE00830002 /* ImgurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B96BC21E971DE00830002 /* ImgurViewController.swift */; };
 		FA5B96C021E971DE00830002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5B96BE21E971DE00830002 /* Main.storyboard */; };
 		FA5B96C321E971DE00830002 /* EuroWingsTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA5B96C121E971DE00830002 /* EuroWingsTask.xcdatamodeld */; };
 		FA5B96C521E971E100830002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5B96C421E971E100830002 /* Assets.xcassets */; };
 		FA5B96C821E971E100830002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5B96C621E971E100830002 /* LaunchScreen.storyboard */; };
+		FA5B96D021E974C600830002 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B96CF21E974C600830002 /* Constants.swift */; };
+		FA5B96D421EA42AB00830002 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B96D321EA42AB00830002 /* ImageModel.swift */; };
+		FA5B96D921EA4E1F00830002 /* ImageGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B96D721EA4E1F00830002 /* ImageGridCell.swift */; };
+		FA5B96DA21EA4E1F00830002 /* ImageGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B96D821EA4E1F00830002 /* ImageGridCell.xib */; };
+		FA5B96DE21EAC25600830002 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B96DD21EAC25600830002 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BC97D017D56559CACA18955 /* Pods-EuroWingsTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroWingsTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-EuroWingsTask/Pods-EuroWingsTask.release.xcconfig"; sourceTree = "<group>"; };
+		A986A3E20D38CAA692B4E065 /* Pods-EuroWingsTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroWingsTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EuroWingsTask/Pods-EuroWingsTask.debug.xcconfig"; sourceTree = "<group>"; };
+		AD53FCDA59C4EE24DAB7D9C6 /* Pods_EuroWingsTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuroWingsTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5B96B721E971DE00830002 /* EuroWingsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroWingsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5B96BA21E971DE00830002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA5B96BC21E971DE00830002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA5B96BC21E971DE00830002 /* ImgurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurViewController.swift; sourceTree = "<group>"; };
 		FA5B96BF21E971DE00830002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA5B96C221E971DE00830002 /* EuroWingsTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EuroWingsTask.xcdatamodel; sourceTree = "<group>"; };
 		FA5B96C421E971E100830002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5B96C721E971E100830002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5B96C921E971E100830002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5B96CF21E974C600830002 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA5B96D321EA42AB00830002 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		FA5B96D721EA4E1F00830002 /* ImageGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridCell.swift; sourceTree = "<group>"; };
+		FA5B96D821EA4E1F00830002 /* ImageGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageGridCell.xib; sourceTree = "<group>"; };
+		FA5B96DD21EAC25600830002 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E4AA644CA9E3210210EE6F /* Pods_EuroWingsTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9715B9B0E00949E93DEE6D6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD53FCDA59C4EE24DAB7D9C6 /* Pods_EuroWingsTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F692DAD6CA0F9D501BCDF191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A986A3E20D38CAA692B4E065 /* Pods-EuroWingsTask.debug.xcconfig */,
+				6BC97D017D56559CACA18955 /* Pods-EuroWingsTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA5B96AE21E971DE00830002 = {
 			isa = PBXGroup;
 			children = (
 				FA5B96B921E971DE00830002 /* EuroWingsTask */,
 				FA5B96B821E971DE00830002 /* Products */,
+				F692DAD6CA0F9D501BCDF191 /* Pods */,
+				9715B9B0E00949E93DEE6D6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				FA5B96BA21E971DE00830002 /* AppDelegate.swift */,
-				FA5B96BC21E971DE00830002 /* ViewController.swift */,
+				FA5B96DC21EAC23800830002 /* Controller */,
+				FA5B96D321EA42AB00830002 /* ImageModel.swift */,
+				FA5B96DB21EA4E2600830002 /* Cells */,
+				FA5B96CF21E974C600830002 /* Constants.swift */,
 				FA5B96BE21E971DE00830002 /* Main.storyboard */,
 				FA5B96C421E971E100830002 /* Assets.xcassets */,
 				FA5B96C621E971E100830002 /* LaunchScreen.storyboard */,
@@ -67,6 +104,24 @@
 			path = EuroWingsTask;
 			sourceTree = "<group>";
 		};
+		FA5B96DB21EA4E2600830002 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B96D721EA4E1F00830002 /* ImageGridCell.swift */,
+				FA5B96D821EA4E1F00830002 /* ImageGridCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA5B96DC21EAC23800830002 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B96BC21E971DE00830002 /* ImgurViewController.swift */,
+				FA5B96DD21EAC25600830002 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5B96CC21E971E100830002 /* Build configuration list for PBXNativeTarget "EuroWingsTask" */;
 			buildPhases = (
+				60D864EDB3302798D52F185F /* [CP] Check Pods Manifest.lock */,
 				FA5B96B321E971DE00830002 /* Sources */,
 				FA5B96B421E971DE00830002 /* Frameworks */,
 				FA5B96B521E971DE00830002 /* Resources */,
+				9C44085F249EFFAD90C680DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +185,50 @@
 				FA5B96C821E971E100830002 /* LaunchScreen.storyboard in Resources */,
 				FA5B96C521E971E100830002 /* Assets.xcassets in Resources */,
 				FA5B96C021E971DE00830002 /* Main.storyboard in Resources */,
+				FA5B96DA21EA4E1F00830002 /* ImageGridCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60D864EDB3302798D52F185F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EuroWingsTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C44085F249EFFAD90C680DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EuroWingsTask/Pods-EuroWingsTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EuroWingsTask/Pods-EuroWingsTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA5B96B321E971DE00830002 /* Sources */ = {
@@ -139,8 +236,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5B96C321E971DE00830002 /* EuroWingsTask.xcdatamodeld in Sources */,
-				FA5B96BD21E971DE00830002 /* ViewController.swift in Sources */,
+				FA5B96D421EA42AB00830002 /* ImageModel.swift in Sources */,
+				FA5B96BD21E971DE00830002 /* ImgurViewController.swift in Sources */,
+				FA5B96D921EA4E1F00830002 /* ImageGridCell.swift in Sources */,
 				FA5B96BB21E971DE00830002 /* AppDelegate.swift in Sources */,
+				FA5B96D021E974C600830002 /* Constants.swift in Sources */,
+				FA5B96DE21EAC25600830002 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +385,7 @@
 		};
 		FA5B96CD21E971E100830002 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A986A3E20D38CAA692B4E065 /* Pods-EuroWingsTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +404,7 @@
 		};
 		FA5B96CE21E971E100830002 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC97D017D56559CACA18955 /* Pods-EuroWingsTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

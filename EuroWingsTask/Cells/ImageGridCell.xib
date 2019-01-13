@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageGridCell" id="gTV-IL-0wX" customClass="ImageGridCell" customModule="EuroWingsTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="139" height="121"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="139" height="121"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NgD-9e-1Jh">
+                        <rect key="frame" x="0.0" y="0.0" width="139" height="121"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="gr0-dL-PMY">
+                        <rect key="frame" x="0.0" y="90.5" width="139" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NgD-9e-1Jh" secondAttribute="bottom" id="BB0-rV-heW"/>
+                <constraint firstItem="gr0-dL-PMY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IV4-Tk-XfW"/>
+                <constraint firstItem="NgD-9e-1Jh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NJB-sB-6tj"/>
+                <constraint firstAttribute="trailing" secondItem="NgD-9e-1Jh" secondAttribute="trailing" id="VoH-AW-DZh"/>
+                <constraint firstItem="gr0-dL-PMY" firstAttribute="bottom" secondItem="NgD-9e-1Jh" secondAttribute="bottom" constant="-10" id="fuJ-7c-YfS"/>
+                <constraint firstItem="NgD-9e-1Jh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hbe-Pb-QM3"/>
+                <constraint firstAttribute="trailing" secondItem="gr0-dL-PMY" secondAttribute="trailing" id="lbx-H6-pTp"/>
+                <constraint firstItem="gr0-dL-PMY" firstAttribute="centerX" secondItem="NgD-9e-1Jh" secondAttribute="centerX" id="rhD-E2-Pcg"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="139" height="121"/>
+            <connections>
+                <outlet property="image" destination="NgD-9e-1Jh" id="iJE-ar-4Nn"/>
+                <outlet property="imageDescription" destination="gr0-dL-PMY" id="gQU-rm-iwy"/>
+            </connections>
+            <point key="canvasLocation" x="208.80000000000001" y="176.76161919040482"/>
+        </collectionViewCell>
+    </objects>
+</document>
